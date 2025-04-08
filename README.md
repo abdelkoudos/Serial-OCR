@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on extracting and recognizing Egyptian national ID serial numbers from images. The serial number consists of two letters followed by seven digits (e.g., AB1234567). The objective is to extract and recognize these serial numbers as text using deep learning techniques, rather than treating them as images.
+This project focuses on extracting and recognizing Egyptian national ID serial numbers from images. The serial number consists of two letters followed by seven digits (e.g., AB1234567). The objective is to extract and recognize these serial numbers as text.
 
 Initially, I attempted to solve this problem using pretrained models like Keras OCR and Tesseract. However, I encountered challenges with these solutions. The architectures were unnecessarily complex, leading to significant time delays, and the results were much worse than when implementing my own custom architecture.
 
@@ -13,10 +13,10 @@ Please note that this project is intended for **documentation purposes**. The da
 
 1. **Data Preprocessing:**
    - Cleaned data by removing improperly formatted labels (non-alphanumeric characters or labels not of length 9).
-   - Split the dataset into training, testing, and validation sets.
+   - Split the dataset into training, validation, and testing sets.
 
 2. **Noise Reduction:**
-   - Preprocessed images using **Wavelet Denoising** and **Adaptive Thresholding**. 
+   - Preprocessed images using **Wavelet Denoising** and **Adaptive Thresholding** for enhancment. 
    - Optimized parameters through grid search on the training set to improve image quality.
 
 3. **Image Segmentation:**
@@ -59,8 +59,11 @@ Please note that this project is intended for **documentation purposes**. The da
       - Recognetion accuracy for train set: 99.32%
       - Average character error rate for test set: 99.32%
       - Average world accuracy for test set: 96.78%
+      - **by combining segmetation and world accuracies 97.07% x 96.78% = 93.93% total accuracy for predicting an unkown serial right.**
    - Recognetion pretrained models
       - keras OCR average character error rate: 67%
       - Tesseract average character error rate: 88%
+    
+     
 
  
