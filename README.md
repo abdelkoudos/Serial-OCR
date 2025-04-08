@@ -2,9 +2,11 @@
 
 ## Project Overview
 
-This project involves extracting and recognizing Egyptian national ID serial numbers from images. The serial consists of two letters followed by seven digits (e.g., **AB1234567**). The goal is to extract and recognize the serial numbers as text rather than as images using deep learning techniques. 
+This project focuses on extracting and recognizing Egyptian national ID serial numbers from images. The serial number consists of two letters followed by seven digits (e.g., AB1234567). The objective is to extract and recognize these serial numbers as text using deep learning techniques, rather than treating them as images.
 
-### **Note on Data Confidentiality:**
+Initially, I attempted to solve this problem using pretrained models like Keras OCR and Tesseract. However, I encountered challenges with these solutions. The architectures were unnecessarily complex, leading to significant time delays, and the results were much worse than when implementing my own custom architecture.
+
+### **Note:**
 Please note that this project is intended for **documentation purposes**. The dataset used in this project is **confidential**, and as such, I am unable to share the data publicly. However, the methodology and code provided can be adapted to similar datasets for learning or practical applications.
 
 ## Steps Taken
