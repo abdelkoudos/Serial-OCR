@@ -50,13 +50,17 @@ Please note that this project is intended for **documentation purposes**. The da
    - Evaluated the model's performance using **Character Error Rate (CER)** and **Word Error Rate (WER)** on the test set.
 
 11. **Results:**
-   - Segmetation accuracy for train set: 97.06%
-   - Segmetation accuracy for validation set: 95.59%
-   - Segmetation accuracy for test set: 97.06%
-     
-   - Recognetion accuracy for train set: 99.33%
-   - Recognetion accuracy for train set: 99.32%
-   - Average character error rate for test set: 99.32%
-   - Average world accuracy for test set: 96.78%
+   - Segmentation
+      - Segmetation accuracy for train set: 97.06%
+      - Segmetation accuracy for validation set: 95.59%
+      - Segmetation accuracy for test set: 97.06%
+   - Recognetion my model
+      - Recognetion accuracy for train set: 99.33%
+      - Recognetion accuracy for train set: 99.32%
+      - Average character error rate for test set: 99.32%
+      - Average world accuracy for test set: 96.78%
+   - Recognetion pretrained models
+      - keras OCR average character error rate: 67%
+      - Tesseract average character error rate: 88%
 
  
