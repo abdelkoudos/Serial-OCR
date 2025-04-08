@@ -33,7 +33,7 @@ Please note that this project is intended for **documentation purposes**. The da
    - adaptiveThreshold block size: 39
    - adaptiveThreshold C: 15
    - findContours strategy: RETR_EXTERNAL +  CHAIN_APPROX_SIMPLE
-   - aspect ratio: ]0.2 - 1.3[
+   - aspect ratio: ]0.2-1.3[
    - contour minimum area: 9
      
 8. **Data Encoding:**
