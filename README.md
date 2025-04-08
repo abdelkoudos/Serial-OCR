@@ -59,7 +59,7 @@ Please note that this project is intended for **documentation purposes**. The da
       - Recognetion accuracy for train set: 99.32%
       - Average character error rate for test set: 99.32%
       - Average world accuracy for test set: 96.78%
-      - **by combining segmetation and world accuracies 97.07% x 96.78% = 93.93% total accuracy for predicting an unkown serial right.**
+      - By combining segmetation and world accuracies 97.07% x 96.78% = **93.93% total accuracy for predicting an unkown serial right.**
    - Recognetion pretrained models
       - keras OCR average character error rate: 67%
       - Tesseract average character error rate: 88%
